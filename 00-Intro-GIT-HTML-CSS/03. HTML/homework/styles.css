@@ -1,16 +1,16 @@
 h1{
 			color: red;
 		}
-img{
-	width: 400px;
+        img{
+	        width: 400px;
 		}
 
 #thirdDiv{
 	height: 600px;
 	width: 500px;
-	background-color: blue;
+	background-color: yellow;
 	padding: 50px;
-	border: 60px solid yellow;
+	border: 5px solid blue;
 
 }
 #spanId{
