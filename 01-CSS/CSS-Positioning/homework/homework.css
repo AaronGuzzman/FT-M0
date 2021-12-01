@@ -50,7 +50,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 #ejercicioCinco{
 	display: flex;
 	justify-content: space-between;
-	
+
 }
 
 
@@ -59,4 +59,24 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 #ejercicioCinco{
 	display: flex;
 	flex-direction: row-reverse;
+}
+
+#ejercicioSiete{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+#elementoUno, #elementoDos, #elementoTres, #elementoCuatro{
+	position: ;
+}
+#elementoUno{
+	left: 0;
+	bottom: 0;
+}
+#elementoDos{
+	right: 0;
+}
+#elementoTres{
+	right: 0;
+	bottom: 0;
 }
