@@ -235,16 +235,16 @@ function esVocal(letra){
   if(letra.length>1){
     return "Dato incorrecto"
   }
-  else if(letra==="a"){
+  else if(letra==="a"||"A"){
     return "Es vocal"
   }
-  else if(letra==="e"){
+  else if(letra==="e"||"E"){
     return "Es vocal"
-  }else if(letra==="i"){
+  }else if(letra==="i"||"I"){
     return "Es vocal"
-  }else if(letra==="o"){
+  }else if(letra==="o"||"O"){
     return "Es vocal"
-  }else if(letra==="u"){
+  }else if(letra==="u"||"U"){
     return "Es vocal"
   }
   
