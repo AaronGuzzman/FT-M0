@@ -126,12 +126,15 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
+  // return Math.pow(num,2)
   return num*num;
+
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
+  // return num ** 3
   return num*num*num;
 }
 
@@ -156,7 +159,8 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return (Math.random()*1)
+  // return (Math.random()*1)
+  return Math.random()
 
 }
 
@@ -193,6 +197,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
+  // return 'Hola ' + nombre +'!  '
   return "Hola"+" "+nombre+"!";
 }
 
